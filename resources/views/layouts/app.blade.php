@@ -23,7 +23,7 @@ The above copyright notice and this permission notice shall be included in all c
   <link rel="icon" type="image/png" href="./assets/img//favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Paper Kit by Creative Tim
+    Space Care
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -42,7 +42,7 @@ The above copyright notice and this permission notice shall be included in all c
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="/" rel="tooltip" title="Coded by Creative Tim" data-placement="bottom" target="_blank">
-          Basura Espacial
+          Space Care
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar bar1"></span>
@@ -85,31 +85,7 @@ The above copyright notice and this permission notice shall be included in all c
     </div>
   </nav>
   <!-- End Navbar -->
-  <div class="page-header section-dark" style="background-image: url('./img/moon.jpg')">
-    <div class="filter"></div>
-    <div class="content-center">
-      <div class="container">
-        <div class="title-brand">
-          <h3 class="presentation-title">Basura Espacial</h3>
-          <div class="fog-low">
-            <img src="./assets/img/fog-low.png" alt="">
-          </div>
-          <div class="fog-low right">
-            <img src="./assets/img/fog-low.png" alt="">
-          </div>
-        </div>
-        <h2 class="presentation-subtitle text-center">¿Sabemos cuánta basura rodea nuestro planeta?</h2>
-      </div>
-    </div>
-    <div class="moving-clouds" style="background-image: url('./assets/img/clouds.png'); "></div>
-    <h6 class="category category-absolute">Designed and coded by
-      <a href="https://www.creative-tim.com" target="_blank">
-        <img src="./assets/img/creative-tim-white-slim2.png" class="creative-tim-logo">
-      </a>
-    </h6>
-  </div>
-
-    <main class="py-4">
+    <main>
             @yield('content')
     </main>
 
