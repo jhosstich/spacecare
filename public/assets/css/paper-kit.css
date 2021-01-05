@@ -6563,12 +6563,18 @@ License - nucleoapp.com/license/
 }
 
 .page-header.page-header-xs {
-  min-height: 40vh !important;
+  min-height: 25vh !important;
 }
 
 .page-header.section-dark .content-center,
 .page-header.section-dark .category-absolute {
   z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .page-header.page-header-xs {
+    min-height: 32vh !important;
+  }
 }
 
 .page-header .motto {

@@ -28,7 +28,7 @@
   <div class="col-10 mx-auto">
     <div class=" mt-5">
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-8 px-0">
+        <div class="col-md-7 px-0">
           <!--multistep start-->
           <div id="regForm">
             <div class="all-steps" id="all-steps"> 
@@ -55,21 +55,24 @@
               <h5>INTRODUCCIÓN</h5>
               <p> La basura espacial son desechos de naves espaciales abandonadas, 
                 soportes para múltiples cargas, desechos liberados intencionalmente durante
-                las misiones espaciales…</p>
+                las misiones espaciales<a class="h6" href="{{route('introduction')}}"> …Saber más</a>
+              </p>
             </div>
             <div class="tab">
               <h5>SITUACIÓN ACTUAL</h5>
-              <p>Desde el comienzo de la era espacial en 1957, se han lanzado toneladas de cohetes, naves e instrumentos al espacio…</p>
+              <p>Desde el comienzo de la era espacial en 1957, se han lanzado toneladas de cohetes, naves e instrumentos al espacio <a class="h6" href="{{route('actual.situation')}}"> …Saber más</a></p>
             </div>
             <div class="tab">
               <h5>PROBLEMÁTICAS</h5>
-              <p>La continua generación de basura espacial acabará provocando que la densidad de los objetos en la órbita baja terrestre sea lo bastante elevada como para que …</p>
+              <p>La continua generación de basura espacial acabará provocando que la densidad de los objetos en la órbita baja terrestre sea lo bastante elevada como para que
+                <a class="h6" href="{{route('problem')}}"> …Saber más</a></p>
+              </p>
             </div>
             <div class="tab">
               <h5>POSIBLES SOLUCIONES</h5>
               <p>Aunque el problema sigue creciendo, al menos ya somos conscientes de que existe y podemos empezar a buscar soluciones para resolverlo. La UNOOSA
                 (Oficina de las naciones unidas para asuntos del espacio exterior) tiene una serie de directrices
-                 y normas que especifican cómo obtener un uso sostenible del espacio....</p>
+                 y normas que especifican cómo obtener un uso sostenible del espacio <a class="h6" href="{{route('solutions')}}"> …Saber más</a></p>
             </div>
             <div class="tab">
               <h5>CONCLUSIÓN</h5>
@@ -80,7 +83,13 @@
               <h3>Thankyou for your feedback!</h3> <span>Thanks for your valuable information. It helps us to improve our services!</span>
             </div>
             <div style="overflow:auto;" id="nextprevious">
-              <div style="float:right;"> <button type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-angle-double-left"></i></button> <button type="button" id="nextBtn" onclick="nextPrev(1)"><i class="fa fa-angle-double-right"></i></button> </div>
+              <div style="float:right;"> 
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)">
+                  <i class="fa fa-angle-double-left"></i>
+                </button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">
+                  <i class="fa fa-angle-double-right"></i>
+                </button> </div>
             </div>
           </div>
           <!--multistep end-->

@@ -19,4 +19,12 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/introduction', [App\Http\Controllers\IndexController::class, 'introduction'])->name('introduction');
+Route::get('/actualsituation', [App\Http\Controllers\IndexController::class, 'actualSituation'])->name('actual.situation');
+Route::get('/problem', [App\Http\Controllers\IndexController::class, 'problem'])->name('problem');
+Route::get('/solutions', [App\Http\Controllers\IndexController::class, 'solutions'])->name('solutions');
+Route::get('/conclusion', [App\Http\Controllers\IndexController::class, 'conclusion'])->name('conclusion');
+
+
+
+

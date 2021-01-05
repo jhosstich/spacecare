@@ -31,13 +31,19 @@
         max-height: 700px;
     }
     &.page-header-xs{
-        min-height: 40vh !important;
+        min-height: 25vh !important;
     }
 
     &.section-dark{
         .content-center,
         .category-absolute{
             z-index: 1;
+        }
+    }
+
+    @media (max-width: 992px){
+        &.page-header-xs{
+            min-height: 32vh !important;
         }
     }
 }
