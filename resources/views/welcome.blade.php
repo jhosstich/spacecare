@@ -28,52 +28,53 @@
   <div class="col-10 mx-auto">
     <div class=" mt-5">
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-8">
-          <form id="regForm">
-            
+        <div class="col-md-8 px-0">
+          <!--multistep start-->
+          <div id="regForm">
             <div class="all-steps" id="all-steps"> 
               <span class="step">
                 <i class="fas fa-satellite-dish"></i>
               </span> 
               <span class="step">
-                <i class="fa fa-map-marker"></i>
+                <i class="fas fa-satellite"></i>
               </span> 
               <span class="step">
-                <i class="fa fa-shopping-bag"></i>
+                <i class="fas fa-globe-europe"></i>
               </span>
-               <span class="step">
-                 <i class="fa fa-car"></i>
-                </span> 
               <span class="step">
-                <i class="fa fa-spotify"></i>
+                <i class="fas fa-atlas"></i> 
               </span> 
               <span class="step">
-                <i class="fa fa-mobile-phone"></i>
+                <i class="fas fa-broadcast-tower"></i>
+              </span> 
+              <span class="step">
+                <i class="fas fa-globe" aria-hidden="true"></i>
               </span> 
             </div>
             <div class="tab">
-              <h6>What's your name?</h6>
-              <p> <input placeholder="Name..." oninput="this.className = ''" name="fname"></p>
+              <h5>INTRODUCCIÓN</h5>
+              <p> La basura espacial son desechos de naves espaciales abandonadas, 
+                soportes para múltiples cargas, desechos liberados intencionalmente durante
+                las misiones espaciales…</p>
             </div>
             <div class="tab">
-              <h6>What's your city?</h6>
-              <p><input placeholder="City" oninput="this.className = ''" name="dd"></p>
+              <h5>SITUACIÓN ACTUAL</h5>
+              <p>Desde el comienzo de la era espacial en 1957, se han lanzado toneladas de cohetes, naves e instrumentos al espacio…</p>
             </div>
             <div class="tab">
-              <h6>What's your Favourite Shopping site?</h6>
-              <p><input placeholder="Favourite Shopping site" oninput="this.className = ''" name="email"></p>
+              <h5>PROBLEMÁTICAS</h5>
+              <p>La continua generación de basura espacial acabará provocando que la densidad de los objetos en la órbita baja terrestre sea lo bastante elevada como para que …</p>
             </div>
             <div class="tab">
-              <h6>What's your Favourite car?</h6>
-              <p><input placeholder="Favourite car" oninput="this.className = ''" name="uname"></p>
+              <h5>POSIBLES SOLUCIONES</h5>
+              <p>Aunque el problema sigue creciendo, al menos ya somos conscientes de que existe y podemos empezar a buscar soluciones para resolverlo. La UNOOSA
+                (Oficina de las naciones unidas para asuntos del espacio exterior) tiene una serie de directrices
+                 y normas que especifican cómo obtener un uso sostenible del espacio....</p>
             </div>
             <div class="tab">
-              <h6>What's your Favourite Song?</h6>
-              <p><input placeholder="Favourite Song" oninput="this.className = ''" name="uname"></p>
-            </div>
-            <div class="tab">
-              <h6>What's your Favourite Mobile brand?</h6>
-              <p><input placeholder="Favourite Mobile Brand" oninput="this.className = ''" name="uname"></p>
+              <h5>CONCLUSIÓN</h5>
+              <p>Todos usamos internet, hacemos llamadas telefónicas, usamos el gps y 
+                consultamos el tiempo que va a hacer mañana, todos somos partícipes puesto que usamos estos servicios a diario…</p>
             </div>
             <div class="thanks-message text-center" id="text-message"> <img src="https://i.imgur.com/O18mJ1K.png" width="100" class="mb-4">
               <h3>Thankyou for your feedback!</h3> <span>Thanks for your valuable information. It helps us to improve our services!</span>
@@ -81,7 +82,8 @@
             <div style="overflow:auto;" id="nextprevious">
               <div style="float:right;"> <button type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-angle-double-left"></i></button> <button type="button" id="nextBtn" onclick="nextPrev(1)"><i class="fa fa-angle-double-right"></i></button> </div>
             </div>
-          </form>
+          </div>
+          <!--multistep end-->
         </div>
       </div>
     </div>

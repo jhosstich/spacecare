@@ -4608,12 +4608,25 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 @charset "UTF-8";
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+
+p {
+  font-weight: 400 !important;
+}
+
 #regForm {
   background-color: #ffffff;
   margin: 0px auto;
-  font-family: Raleway;
-  padding: 40px;
-  border-radius: 10px;
+  padding: 10px 40px 30px;
+  border-radius: 10px 40px 30px;
+  box-shadow: -4px 2px 20px grey;
 }
 
 h1 {
@@ -4686,7 +4699,7 @@ button:focus {
   justify-content: center;
   align-items: center;
   font-size: 15px;
-  color: #6a1b9a;
+  color: #262626;
   opacity: 0.5;
 }
 
