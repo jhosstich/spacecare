@@ -30,8 +30,27 @@
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-8">
           <form id="regForm">
-            <h1 id="register">Survey Form</h1>
-            <div class="all-steps" id="all-steps"> <span class="step"><i class="fa fa-user"></i></span> <span class="step"><i class="fa fa-map-marker"></i></span> <span class="step"><i class="fa fa-shopping-bag"></i></span> <span class="step"><i class="fa fa-car"></i></span> <span class="step"><i class="fa fa-spotify"></i></span> <span class="step"><i class="fa fa-mobile-phone"></i></span> </div>
+            
+            <div class="all-steps" id="all-steps"> 
+              <span class="step">
+                <i class="fas fa-satellite-dish"></i>
+              </span> 
+              <span class="step">
+                <i class="fa fa-map-marker"></i>
+              </span> 
+              <span class="step">
+                <i class="fa fa-shopping-bag"></i>
+              </span>
+               <span class="step">
+                 <i class="fa fa-car"></i>
+                </span> 
+              <span class="step">
+                <i class="fa fa-spotify"></i>
+              </span> 
+              <span class="step">
+                <i class="fa fa-mobile-phone"></i>
+              </span> 
+            </div>
             <div class="tab">
               <h6>What's your name?</h6>
               <p> <input placeholder="Name..." oninput="this.className = ''" name="fname"></p>
