@@ -35,7 +35,7 @@ The above copyright notice and this permission notice shall be included in all c
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="./assets/demo/demo.css" rel="stylesheet" />
   <!-- Styles -->
-  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+  <link href="./css/app.css" rel="stylesheet">
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -97,10 +97,7 @@ The above copyright notice and this permission notice shall be included in all c
           <nav class="footer-nav">
             <ul>
               <li>
-                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com/" target="_blank">Blog</a>
+                <a href="http://blog.creative-tim.com/" target="_blank">About Us</a>
               </li>
               <li>
                 <a href="https://www.creative-tim.com/license" target="_blank">Licenses</a>
