@@ -24,12 +24,12 @@
   </h6>
 </div>
 
+<!--
 <div class="py-4" >
   <div class="col-10 mx-auto">
     <div class=" mt-5">
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-7 px-0">
-          <!--multistep start-->
           <div id="regForm">
             <div class="all-steps" id="all-steps"> 
               <span class="step">
@@ -92,14 +92,85 @@
                 </button> </div>
             </div>
           </div>
-          <!--multistep end-->
         </div>
       </div>
     </div>
   </div>
 </div>
+-->
+<div class="container  my-3" id="info_slider">
+    <h2 class="font-weight-light text-center pb-2">catchi title here</h2>
+    <div class="row mx-auto my-auto">
+        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-100" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                          <h5>INTRODUCCIÓN</h5>
+                          <p> La basura espacial son desechos de naves espaciales abandonadas, 
+                            soportes para múltiples cargas, desechos liberados intencionalmente durante
+                            las misiones espaciales...<br>
+                            <a class="h6" href="{{route('introduction')}}">Saber más >></a>
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                          <h5>SITUACIÓN ACTUAL</h5>
+                          <p>Desde el comienzo de la era espacial en 1957, se han lanzado toneladas de cohetes, naves e instrumentos al espacio <br>
+                           <a class="h6" href="{{route('actual.situation')}}"> Saber más >></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                          <h5>PROBLEMÁTICAS</h5>
+                          <p>La continua generación de basura espacial acabará provocando que la densidad de los objetos en la órbita baja terrestre sea lo bastante elevada como para que las colisiones...<br>
+                            <a class="h6" href="{{route('problem')}}">Saber más >></a></p>
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                          <h5>POSIBLES SOLUCIONES</h5>
+                          <p>Aunque el problema sigue creciendo, al menos ya somos conscientes de que existe y podemos empezar a buscar soluciones para resolverlo. La UNOOSA
+                            (Oficina de las naciones unidas para asuntos del espacio exterior) tiene una serie de directrices
+                            y normas que especifican cómo obtener un uso sostenible del espacio..<br> <a class="h6" href="{{route('solutions')}}"> Saber más >></a>
+                          </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                          <h5>CONCLUSIÓN</h5>
+                          <p>Todos usamos internet, hacemos llamadas telefónicas, usamos el gps y 
+                            consultamos el tiempo que va a hacer mañana, todos somos partícipes puesto que usamos estos servicios a diario...<br>
+                            <a class="h6" href="{{route('conclusion')}}">Saber más >></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
 
+@endsection
 
+@section('script')
 
 <!---SCRIPT -->
 <script>
@@ -164,5 +235,28 @@
   }
 </script>
 
+<script>
+  $('#recipeCarousel').carousel({
+    interval: 10000
+  })
+
+  $('.carousel .carousel-item').each(function(){
+      var minPerSlide = 3;
+      var next = $(this).next();
+      if (!next.length) {
+      next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+      
+      for (var i=0;i<minPerSlide;i++) {
+          next=next.next();
+          if (!next.length) {
+            next = $(this).siblings(':first');
+          }
+          
+          next.children(':first-child').clone().appendTo($(this));
+        }
+  });
+</script>
 
 @endsection

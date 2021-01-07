@@ -14,7 +14,5 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .js('resources/assets/js/paper-kit.js', 'public/assets/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .postCss('resources/assets/demo/demo.css', 'public/assets/demo')
-    .postCss('resources/assets/demo/docs.css', 'public/assets/demo')
     .sass('resources/assets/scss/paper-kit.scss', 'public/assets/css')
     .sourceMaps();

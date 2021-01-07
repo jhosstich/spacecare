@@ -66,7 +66,7 @@ The above copyright notice and this permission notice shall be included in all c
   </nav>
   <!-- End Navbar -->
     <main>
-            @yield('content')
+      @yield('content')
     </main>
 
     <footer class="footer footer-black  footer-white ">
@@ -109,6 +109,9 @@ The above copyright notice and this permission notice shall be included in all c
     <!--  Google Maps Plugin    -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
     <script>
+
+
+
       $(document).ready(function() {
 
         if ($("#datetimepicker").length != 0) {
@@ -137,6 +140,8 @@ The above copyright notice and this permission notice shall be included in all c
         }
       });
     </script>
+
+    @yield('script')
 </body>
 
 </html>
