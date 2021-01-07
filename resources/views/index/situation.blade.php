@@ -3,7 +3,11 @@
 <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./img/sky.jpg');">
     <div class="filter">
     </div>
-    <h1 class="mt-5" style="color:white; z-index: 2;">SITUACIÓN ACTUAL</h1>
+    <div class="row">
+        <h1 class=" col-12 mt-5" style="color:white; z-index: 2;">SITUACIÓN ACTUAL</h1>
+        <a class="mt-4 text-right col-12" style="color:white; z-index: 2;"href="{{route('problem')}}"> Ver Problemáticas >></a>
+    </div>
+    
   </div>
 <div class="container">
     <p class="py-4 col-md-8 mx-auto col-12">
@@ -13,6 +17,7 @@
     los menores desechos posibles, por lo que el número de basura espacial no ha dejado de crecer desde entonces.
     <br>
     <img class="py-3 img-fluid" height="70" src="/img/objects_in_orbit.jpg">
+    <br>
 
     El actual problema es producido por las explosiones en órbita producidas por batería y combustible. La NASA afirma que llevan años introduciendo mejoras en la eliminación de los materiales una vez finalizadas las misiones, a pesar de que el número de basura espacial no ha descendido.
     <br>

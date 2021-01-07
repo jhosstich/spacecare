@@ -3,7 +3,11 @@
 <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./img/sky.jpg');">
     <div class="filter">
     </div>
-    <h1 class="mt-5" style="color:white; z-index: 2;">PROBLEMÁTICAS</h1>
+    
+    <div class="row">
+        <h1 class=" col-12 mt-5" style="color:white; z-index: 2;">PROBLEMÁTICAS</h1>
+        <a class="mt-4 text-right col-12" style="color:white; z-index: 2;"href="{{route('solutions')}}"> Ver Posibles Solucuciones >></a>
+    </div>
   </div>
 <div class="container">
     <p class="py-4 col-md-8 mx-auto col-12">
