@@ -16,7 +16,7 @@
         <strong>Directriz 5:</strong> Minimización de las posibilidades de que se produzcan desintegraciones al final de las misiones como resultado de la energía almacenada. <br><br>
         <strong>Directriz 6:</strong> Limitación de la presencia a largo plazo de naves espaciales y etapas orbitales de vehículos de lanzamiento en la región de la órbita terrestre baja (LEO) al final de la misión. <br><br>
         <strong>Directriz 7:</strong> Limitación de la interferencia a largo plazo de las naves espaciales y las etapas orbitales de los vehículos de lanzamiento en la región de la órbita terrestre geosincrónica (GEO) al final de la misión. <br><br>
-        <strong>Directriz 8:</strong> 8. Debería garantizarse una vigilancia continua de las actividades espaciales realizadas por entidades no gubernamentales en caso de transferencia de la propiedad o del control de un objeto espacial en órbita. <br>
+        <strong>Directriz 8:</strong> Debería garantizarse una vigilancia continua de las actividades espaciales realizadas por entidades no gubernamentales en caso de transferencia de la propiedad o del control de un objeto espacial en órbita. <br>
         Hay diversos proyectos para el futuro que aún están en fase de desarrollo, como el de crear un robot capaz de expulsar la basura fuera de nuestra atmósfera, tarea que es muy complicada sin que el propio robot se destruya en la misión. <br>
 
         Otra posible solución a corto plazo para reducir la cantidad de basura espacial sería poner tarifas de uso orbital, para reducir la frecuencia de enviar objetos a la atmósfera. 
