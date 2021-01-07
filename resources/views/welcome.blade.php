@@ -17,11 +17,11 @@
     </div>
   </div>
   <div class="moving-clouds" style="background-image: url('./assets/img/clouds.png'); "></div>
-  <h6 class="category category-absolute">Designed and coded by
+  <!--<h6 class="category category-absolute">Designed and coded by
     <a href="https://www.creative-tim.com" target="_blank">
       <img src="./assets/img/creative-tim-white-slim2.png" class="creative-tim-logo">
     </a>
-  </h6>
+  </h6>-->
 </div>
 
 <!--
