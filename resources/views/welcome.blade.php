@@ -171,8 +171,7 @@
 @endsection
 
 @section('script')
-
-<!---SCRIPT -->
+{{--
 <script>
   var currentTab = 0;
   document.addEventListener("DOMContentLoaded", function(event) {
@@ -234,7 +233,7 @@
     x[n].className += " active";
   }
 </script>
-
+--}}
 <script>
   $('#recipeCarousel').carousel({
     interval: 10000
