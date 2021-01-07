@@ -168,6 +168,12 @@
     </div>
 </div>
 
+<div class="container">
+  <p>En esta <a href="http://stuffin.space/" target="_blank">  web</a> podemos observar los objetos que actualmente estan alrededor de nuestro planeta</p>
+  <iframe src="http://stuffin.space/" width="100%" height="500"></iframe>
+</div>
+
+
 @endsection
 
 @section('script')

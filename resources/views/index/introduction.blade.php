@@ -7,7 +7,9 @@
   </div>
 <div class="container">
     <p class="py-4 col-md-8 mx-auto col-12">
+        <br>
         La basura espacial son desechos de naves espaciales abandonadas, soportes para múltiples cargas, desechos liberados intencionalmente durante las misiones espaciales. Resumiendo, todos los desechos residuales de la actividad espacial.
+        <br> 
         <br>
         Estos desechos cuando colisionan unos con otros lo hacen a una velocidad de 10 km/s y pueden llegar hasta unos 15 km/s que son 10 veces más que la velocidad de una bala.
         <br>

@@ -32,7 +32,7 @@ class IndexController extends Controller
         return view('index.solutions');
     }
 
-    public function conslusion()
+    public function conclusion()
     {
         return view('index.conclusion');
     }
