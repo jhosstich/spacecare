@@ -15,4 +15,5 @@ mix.js('resources/js/app.js', 'public/js')
     .js('resources/assets/js/paper-kit.js', 'public/assets/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/assets/scss/paper-kit.scss', 'public/assets/css')
-    .sourceMaps();
+    .sourceMaps()
+    .version();
