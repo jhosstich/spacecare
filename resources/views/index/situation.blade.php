@@ -29,6 +29,14 @@
     Fuente: <a href="http://www.esa.int/ESA_Multimedia/Videos/2017/04/Dealing_with_space_debris">ESA</a>
     </p>
 
+    <hr class="mt-5">
+    <p class="mt-4">
+        <strong>BIBLIOGRAFÍA </strong> <br>
+        <a href="https://www.treehugger.com/concepts-cleaning-space-junk-4858326"> Concepts</a> - Space Junk. <br>
+        <a href="https://www.sdo.esoc.esa.int/environment_report/Space_Environment_Report_latest.pdf"> Statistics</a> - Space envirement Report <br>
+
+    </p>
+
 </div>
 
 @endsection

@@ -25,6 +25,11 @@
         Los principales riesgos que provocan estos residuos son las posibles colisiones con satélites funcionales, naves con tripulación o la estación internacional. Los grandes fragmentos son fáciles de localizar y monitorizar y por lo tanto dichas colisiones se podrían evitar, esquivándolos o retirando estos derbis, por lo que los más problemáticos son los que no se han localizado por su pequeño tamaño.
     </p>
 
+    <hr class="mt-5">
+    <p class="mt-4">
+        <strong>BIBLIOGRAFÍA </strong> <br>
+    </p>
+
 </div>
 
 @endsection

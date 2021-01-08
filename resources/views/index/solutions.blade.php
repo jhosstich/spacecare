@@ -54,8 +54,15 @@
             Hay diversos proyectos para el futuro que aún están en fase de desarrollo, como el de crear un robot capaz de expulsar la basura fuera de nuestra atmósfera, tarea que es muy complicada sin que el propio robot se destruya en la misión. <br>
             Otra posible solución a corto plazo para reducir la cantidad de basura espacial sería poner tarifas de uso orbital, para reducir la frecuencia de enviar objetos a la atmósfera. 
         </p>
+        <hr class="mt-5">
+        <p class="mt-4">
+            <strong>BIBLIOGRAFÍA </strong> <br>
+            <a href="https://www.unoosa.org/res/oosadoc/data/documents/2017/stspace/stspace61rev_2_0_html/V1703167-SPANISH.pdf" target="_blank">  Derecho internacional del espacio</a> -  Oficina de Naciones Unidas para Asuntos del Espacio Exterior (pag. 97)<br>
+            <a href="https://en.wikipedia.org/wiki/United_Nations_Committee_on_the_Peaceful_Uses_of_Outer_Space" target="_blank">  Estados partícipes del COPUOS </a> (Comité de las Naciones Unidas sobre la Utilización del Espacio Ultraterrestre con Fines Pacíficos)
+            <br><a href="https://www.esa.int/Space_in_Member_States/Spain/La_ESA_encarga_la_primera_mision_de_eliminacion_de_basura_espacial_del_mundo" target="_blank"> Misión ClearSpace-1 </a>- Agencia Espacial Europea y clearspace.today 
+            <br>
+        </p>
     </div>
-
 </div>
 
 @endsection

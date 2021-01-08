@@ -28,7 +28,15 @@
     <img class="my-4" src="/img/Why_Space_Debris_Mitigation_is_needed_pillars.gif" width="100%">
     <small class="mb-4">Estimaciones de la ESA de cuál sería el estado de la órbita terrestre si seguimos actuando de la misma manera sin tomar medidas que reduzcan los derbis en 2209. Y estimaciones si se lleva a cabo su plan de mitigación.</small> <br>  <br>
     Cualquier impacto entre dos objetos de masa considerable creará una basura adicional de metralla, la cual creará a su vez más basura. Con una colisión lo suficientemente grande, como por ejemplo entre una estación espacial y un satélite, bastaría para generar la suficiente basura como para hacer la órbita baja de la Tierra inutilizable.
+    </p>
+    <hr class="mt-5">
 
+    <p class="mt-4">
+            <strong>BIBLIOGRAFÍA </strong> <br>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/027311779190543S" target="_blank">  Collisional cascading </a> The limits of population growth in low earth orbit - Donald J.Kessler<br>
+            <a href="https://es.wikipedia.org/wiki/S%C3%ADndrome_de_Kessler">  Síndrome de Kessler (s.f). </a> En Wikipedia. Recuperado el 02 de Enero del 2021. </a>
+            <a href="https://discosweb.esoc.esa.int/ ">Base de Datos de la ESA de fragmentos</a>    <br>
+            <a href="https://discosweb-api.sdo.esoc.esa.int/ ">  API web de la Base de Datos de fragmentos</a> - ESA <br>
     </p>
 
 </div>
