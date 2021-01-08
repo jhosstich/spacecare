@@ -9,3 +9,20 @@ p{
 main {
     min-height: 700px;
 }
+
+#solution {
+    #carouselExampleIndicators {
+        float: right;
+        margin: 15px;
+        width: 50%;
+        
+        @media (max-width: 768px) {
+            margin: 15px 0;
+            align-self: center;
+            width: 100%;
+        }
+    }
+    p {
+        text-align: justify;
+    }
+}

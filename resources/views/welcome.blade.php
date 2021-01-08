@@ -99,7 +99,7 @@
 </div>
 -->
 <div class="container  my-3" id="info_slider">
-    <h2 class="font-weight-light text-center pb-2">catchi title here</h2>
+    <h2 class=" text-center my-5">INFÓRMATE MÁS!..</h2>
     <div class="row mx-auto my-auto">
         <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
@@ -178,8 +178,8 @@
     </div>
 </div>
 
-<div class="container">
-  <p>En esta <a href="http://stuffin.space/" target="_blank">  web</a> podemos observar los objetos que actualmente estan alrededor de nuestro planeta</p>
+<div class="py-4 px-3" style="background:#1b1a1a; color:white">
+    <p class="container text-center">En esta <a href="http://stuffin.space/" style="color:orange" target="_blank"><strong>web</strong></a> podemos observar los objetos que actualmente estan alrededor de nuestro planeta</p>
   <iframe src="http://stuffin.space/" width="100%" height="550"></iframe>
 </div>
 
