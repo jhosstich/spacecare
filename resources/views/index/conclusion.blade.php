@@ -22,7 +22,7 @@
     <p class="col-md-8 mx-auto col-12">
     Que no veamos a simple vista la basura espacial no significa que no esté, 
     si no controlamos y desarrollamos un sistema que funcione para evitar y 
-    reducir la basura espacial, nuestras órbitas quedaras inutilizadas y 
+    reducir la basura espacial, nuestras órbitas quedarán inutilizadas y 
     perderemos todos los recursos que hemos estado utilizando hasta ahora, 
     además de graves problemas medioambientales.
     </p>

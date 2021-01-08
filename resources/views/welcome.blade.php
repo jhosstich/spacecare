@@ -110,7 +110,7 @@
                           <small class="mb-3"><span>Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">NASA</a> on <a href="https://unsplash.com/s/photos/satellite?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></small>
                           <h5>INTRODUCCIÓN</h5>
                           <p> La basura espacial son desechos de naves espaciales abandonadas, 
-                            soportes para múltiples cargas, desechos liberados intencionalmente durante
+                            soportes para múltiples cargas, desechos liberados intencionadamente durante
                             las misiones espaciales...<br>
                             <a class="h6" href="{{route('introduction')}}">Saber más >></a>
                           </p>
