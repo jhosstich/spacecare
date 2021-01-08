@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6, .h5, .h6 {
 
 p{
     font-weight: 400 !important;
+    font-size: 15px;
 }
 
 main {
@@ -27,11 +28,25 @@ main {
     }
 }
 
+ 
 footer {
+    background-color: #262626;
+    color: white;
     a {
-        color: black;
+        color: white ;
         font-weight: 400;
     }
+    .copyright {
+        color: #777777;
+        padding: 10px 0px;
+        font-size: 14px;
+        margin: 15px 3px;
+        line-height: 20px;
+        text-align: center;
+      }
+       .heart{
+          color: #EB5E28;
+      }
 }
   
   .sel  {

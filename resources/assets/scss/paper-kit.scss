@@ -23,25 +23,12 @@
 @import "paper-kit/plugins/plugin-nouislider";
 @import "paper-kit/plugins/plugin-datepicker";
 
-// Core CSS
-@import "paper-kit/buttons";
-@import "paper-kit/inputs";
-@import "paper-kit/checkbox-radio";
-@import "paper-kit/progress-bars";
-@import "paper-kit/badges";
-@import "paper-kit/pagination";
-@import "paper-kit/typography";
-@import "paper-kit/misc";
-@import "paper-kit/labels";
+
 
 // components
 @import "paper-kit/tabs-navs";
 @import "paper-kit/navbars";
 @import "paper-kit/dropdown";
-@import "paper-kit/images";
-@import "paper-kit/tooltips-and-popovers";
-@import "paper-kit/icons";
-@import "paper-kit/footers";
 
 // Cards
 @import "paper-kit/cards";
@@ -54,5 +41,8 @@
 @import "paper-kit/examples";
 @import "paper-kit/sections";
 
+
+//fonts
+@import"paper-kit/typography";
 
 @import "paper-kit/responsive";

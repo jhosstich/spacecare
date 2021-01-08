@@ -19,8 +19,8 @@ The above copyright notice and this permission notice shall be included in all c
 
 <head>
   <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img//apple-icon.png">
-  <link rel="icon" type="image/png" href="./assets/img//favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/logo/spacecare_logo_leter.png">
+  <link rel="icon" type="image/png" href="/img/logo/spacecare_logo_leter.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
     Space Care
@@ -31,8 +31,7 @@ The above copyright notice and this permission notice shall be included in all c
   <!-- CSS Files -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="./assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
+  
   <!-- Styles -->
   <link href="./css/app.css" rel="stylesheet">
 </head>
@@ -72,21 +71,31 @@ The above copyright notice and this permission notice shall be included in all c
     <footer class="footer footer-black py-3 footer-white ">
       <div class="container">
         <div class="row">
-              <div class="col-md-4 col-4 ">
-                <img height="150"  src="/img/logo/spacecare_logo.png">
+              <div class="col-md-2 col-4 ">
+                <img height="150"  src="/img/logo/spacecare_logo_white.png">
               </div>
-              <div class="col-md-4 col-8 ">
+              <div class=" py-3 col-md-6 col-8 ">
                 <p><strong>Sobre Nosotros..</strong> <br> Este es un proyecto realizado por estudiantes de la facultad de informática de la universidad 
-                  Complutense de Madrid con el objetivo de difundir esta problemática y concienciar a las personas que lean este pequeño proyecto</p>
+                  Complutense de Madrid con el objetivo de difundir esta problemática y concienciar a las personas que lean este pequeño proyecto.</p>
               </div>
-              <div class="col-md-4 col-12">
+              <div class="col-md-4 col-12 text-center">
+                  <p>
+                    Pablo Fernandez Jara <br>
+                    Javier Romero <br>
+                    Jhoselin Oscco <br>
+                    Jaime Palazon <br>
+                    Adrián Salvador Crespo <br>
+                    Christian Balbas Sánchez<br>
+                  </p>  
+
+                <img class="mt-4 d-block" style="display:inline-block; margin:auto; vertical-align:middle;"src="/img/spacecare_cc.jpg" alt="Space care cc">
+
                 <span class="copyright">
                   ©
                   <script>
                     document.write(new Date().getFullYear())
-                  </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim <br>
+                  </script>, made with <i class="fa fa-heart heart"></i> by <a href="https://www.creative-tim.com/product/paper-kit-2"> Creative Tim </a><br>
                 </span>
-                <img class="d-block" src="/img/spacecare_cc.jpg" alt="Space care cc">
               </div>
         </div>
       </div>
@@ -104,40 +113,6 @@ The above copyright notice and this permission notice shall be included in all c
     <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
     <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
-    <!--  Google Maps Plugin    -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-    <script>
-
-
-
-      $(document).ready(function() {
-
-        if ($("#datetimepicker").length != 0) {
-          $('#datetimepicker').datetimepicker({
-            icons: {
-              time: "fa fa-clock-o",
-              date: "fa fa-calendar",
-              up: "fa fa-chevron-up",
-              down: "fa fa-chevron-down",
-              previous: 'fa fa-chevron-left',
-              next: 'fa fa-chevron-right',
-              today: 'fa fa-screenshot',
-              clear: 'fa fa-trash',
-              close: 'fa fa-remove'
-            }
-          });
-        }
-
-        function scrollToDownload() {
-
-          if ($('.section-download').length != 0) {
-            $("html, body").animate({
-              scrollTop: $('.section-download').offset().top
-            }, 1000);
-          }
-        }
-      });
-    </script>
 
     @yield('script')
 </body>
