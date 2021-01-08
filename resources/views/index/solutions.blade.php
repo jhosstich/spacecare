@@ -5,7 +5,8 @@
     </div>
     <div class="row">
         <h1 class=" col-12 mt-5" style="color:white; z-index: 2;">POSIBLES SOLUCIONES</h1>
-        <a class="mt-4 text-right col-12" style="color:white; z-index: 2;"href="{{route('conclusion')}}"> Ver Conclusiones >></a>
+        <a class="mt-4 text-left col-6" style="color:white; z-index: 2;"href="{{route('problem')}}"> << Ver Problemáticas</a>
+        <a class="mt-4 text-right col-6" style="color:white; z-index: 2;"href="{{route('conclusion')}}"> Ver Conclusiones >></a>
     </div>
   </div>
 <div class="container">

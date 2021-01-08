@@ -4,8 +4,9 @@
     <div class="filter">
     </div>
     <div class="row">
-        <h1 class=" col-12 mt-5" style="color:white; z-index: 2;">SITUACIÓN ACTUAL</h1>
-        <a class="mt-4 text-right col-12" style="color:white; z-index: 2;"href="{{route('problem')}}"> Ver Problemáticas >></a>
+        <h1 class="col-12 mt-5" style="color:white; z-index: 2;">SITUACIÓN ACTUAL</h1>
+        <a class="mt-4 text-left col-6" style="color:white; z-index: 2;"href="{{route('introduction')}}"> << Ver Introducción</a>
+        <a class="mt-4 text-right col-6" style="color:white; z-index: 2;"href="{{route('problem')}}"> Ver Problemáticas >></a>
     </div>
     
   </div>
