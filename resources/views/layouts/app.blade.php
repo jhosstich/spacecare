@@ -69,29 +69,25 @@ The above copyright notice and this permission notice shall be included in all c
       @yield('content')
     </main>
 
-    <footer class="footer footer-black  footer-white ">
+    <footer class="footer footer-black py-3 footer-white ">
       <div class="container">
         <div class="row">
-          <nav class="footer-nav">
-            <ul>
-              <li>
-                <a href="http://blog.creative-tim.com/" target="_blank">About Us</a>
-              </li>
-              <li>
-                <a href="https://www.creative-tim.com/license" target="_blank">Licenses</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="credits ml-auto">
-            <span class="copyright">
-              ©
-              <script>
-                document.write(new Date().getFullYear())
-              </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim <br>
-            </span>
-            <img class="d-block" src="/img/spacecare_cc.jpg" alt="Space care cc">
-
-          </div>
+              <div class="col-md-4 col-4 ">
+                <img height="150"  src="/img/logo/spacecare_logo.png">
+              </div>
+              <div class="col-md-4 col-8 ">
+                <p><strong>Sobre Nosotros..</strong> <br> Este es un proyecto realizado por estudiantes de la facultad de informática de la universidad 
+                  Complutense de Madrid con el objetivo de difundir esta problemática y concienciar a las personas que lean este pequeño proyecto</p>
+              </div>
+              <div class="col-md-4 col-12">
+                <span class="copyright">
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear())
+                  </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim <br>
+                </span>
+                <img class="d-block" src="/img/spacecare_cc.jpg" alt="Space care cc">
+              </div>
         </div>
       </div>
     </footer>
