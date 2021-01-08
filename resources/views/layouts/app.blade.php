@@ -87,8 +87,10 @@ The above copyright notice and this permission notice shall be included in all c
               ©
               <script>
                 document.write(new Date().getFullYear())
-              </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
+              </script>, made with <i class="fa fa-heart heart"></i> by Creative Tim <br>
             </span>
+            <img class="d-block" src="/img/spacecare_cc.jpg" alt="Space care cc">
+
           </div>
         </div>
       </div>
