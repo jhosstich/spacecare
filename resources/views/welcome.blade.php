@@ -21,7 +21,7 @@
       <h2 class="presentation-subtitle text-center">¿Sabemos cuánta basura rodea nuestro planeta?</h2>
     </div>
   </div>
-  <div class="moving-clouds" style="background-image: url('./assets/img/banner-home.png'); "></div>
+  <div class="moving-clouds" style="background-image: url('./assets/img/banner-home2.png'); "></div>
   <!--<h6 class="category category-absolute">Designed and coded by
     <a href="https://www.creative-tim.com" target="_blank">
       <img src="./assets/img/creative-tim-white-slim2.png" class="creative-tim-logo">
@@ -137,7 +137,16 @@
 <script>
   $('#recipeCarousel').carousel({
     interval: 10000,
+    wrap: false
   })
+  $('#recipeCarousel').on('slid.bs.carousel', function (e) {
+        if ($('.carousel-inner .carousel-item:last').hasClass('active')) {
+            $('#recipeCarousel').carousel('pause');
+        }
+        if ($('.carousel-inner .carousel-item:first').hasClass('active')) {
+            $('#recipeCarousel').carousel('cycle');
+        }
+    });
 
   $('.carousel .carousel-item').each(function(){
       var minPerSlide = 3;
