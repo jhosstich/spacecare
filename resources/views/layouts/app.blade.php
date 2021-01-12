@@ -32,6 +32,8 @@ The above copyright notice and this permission notice shall be included in all c
   
   <!-- Styles -->
   <link href="./css/app.css" rel="stylesheet">
+
+  @yield('head')
 </head>
 
 <body class="index-page sidebar-collapse">
