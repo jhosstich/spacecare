@@ -29,6 +29,14 @@ The above copyright notice and this permission notice shall be included in all c
   <!-- CSS Files -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="./assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQEX13ZBYB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VQEX13ZBYB');
+  </script>
   
   <!-- Styles -->
   <link href="./css/app.css" rel="stylesheet">

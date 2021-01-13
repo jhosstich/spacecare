@@ -1,6 +1,7 @@
 @section('head')
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+{{--<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+--}}
 @endsection
 @extends('layouts.app')
 
@@ -91,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item ultimo">
                     <div class="col-md-4">
                         <div class="card card-body">
                         <img class=" mb-3 w-100" src="/img/slider/people.jpg">
@@ -122,15 +123,15 @@
 @endsection
 
 @section('script')
-{{--
-<script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.js"></script>
+
+{{--<script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.js"></script>
 <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
 <script>
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZWxwbWFwcyIsImEiOiJja2pqc3pjaW4ydmh2MzFzY3c0ZDRyYjZ4In0._CIkbIg4S6fDtBvvKs4ZAA';
+ /* mapboxgl.accessToken = 'pk.eyJ1IjoiZWxwbWFwcyIsImEiOiJja2pqc3pjaW4ydmh2MzFzY3c0ZDRyYjZ4In0._CIkbIg4S6fDtBvvKs4ZAA';
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/elpmaps/ckjjtbr6k0yhp19mmsjsge8eb/draft'
-  });
+  });*/
 </script>
 --}}
 
@@ -139,31 +140,29 @@
     interval: 10000,
     wrap: false
   })
-  $('#recipeCarousel').on('slid.bs.carousel', function (e) {
-        if ($('.carousel-inner .carousel-item:last').hasClass('active')) {
-            $('#recipeCarousel').carousel('pause');
-        }
-        if ($('.carousel-inner .carousel-item:first').hasClass('active')) {
-            $('#recipeCarousel').carousel('cycle');
-        }
-    });
+  
 
   $('.carousel .carousel-item').each(function(){
+    
       var minPerSlide = 3;
+      if($('.carousel-item').hasClass('ultimo')){
+        minPerSlide = 1;
+      }
       var next = $(this).next();
       if (!next.length) {
       next = $(this).siblings(':first');
       }
       next.children(':first-child').clone().appendTo($(this));
-      
+
       for (var i=0;i<minPerSlide;i++) {
-          next=next.next();
-          if (!next.length) {
+        next=next.next();
+        if (!next.length) {
             next = $(this).siblings(':first');
-          }
-          
-          next.children(':first-child').clone().appendTo($(this));
         }
+          
+        next.children(':first-child').clone().appendTo($(this));
+      }
+     
   });
 </script>
 
