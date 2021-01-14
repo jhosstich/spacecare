@@ -41,7 +41,7 @@
             <br>
             <br>
         <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs?hl=es#what_data_does_the_google_analytics_tag_capture"> Google Anaytics</a><br>
-        <a href="https://www.mapbox.com/legal/cookies">Map box</a>
+        {{--<!--<a href="https://www.mapbox.com/legal/cookies">Map box</a> -->--}}
         
         <br>
         <br>

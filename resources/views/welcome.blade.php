@@ -1,7 +1,9 @@
 @section('head')
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+{{--
+<!--<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
-
+-->
+--}}
 @endsection
 @extends('layouts.app')
 
@@ -29,12 +31,14 @@
     </a>
   </h6>-->
 </div>
-
+{{--
+<!--
 <div class="container pt-4">
   <h1>Mapa</h1>
   <div id='map' style='width:100%; height: 300px; border-width:2px; border:solid;'></div>
 </div>
-
+-->
+--}}
 
 <div class="container  my-3" id="info_slider">
     <h2 class=" text-center my-5">INFÓRMATE MÁS!..</h2>
@@ -123,7 +127,8 @@
 @endsection
 
 @section('script')
-
+{{--
+<!--
 <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.js"></script>
 <script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
 <script>
@@ -133,8 +138,8 @@
     style: 'mapbox://styles/elpmaps/ckjjtbr6k0yhp19mmsjsge8eb/draft'
   });
 </script>
-
-
+-->
+--}}
 <script>
   $('#recipeCarousel').carousel({
     interval: 10000,
