@@ -1,0 +1,34 @@
+#cookies {
+
+     a {
+        text-decoration: none;
+        color: #D9D75A;
+        font-weight: 600;
+
+    }
+    
+     a:hover {
+        text-decoration: none;
+        color: #D9D75A;
+        font-weight: 800;
+    }
+
+}
+
+//cookies
+.cookies {
+    padding: 0;
+    background-color:#21526e;
+    color: white;
+    padding: 30px;
+    padding-right: 30px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1032;
+
+    button {
+        border-color: white;
+        padding: 12px;
+    }
+}

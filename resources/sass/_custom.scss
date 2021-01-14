@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6, .h5, .h6 {
     font-weight: 700 !important;
 }
 
+body,html {
+    min-height: 800px;
+  
+}
 p{
     font-weight: 400 !important;
     font-size: 15px;
@@ -51,4 +55,9 @@ footer {
   
   .sel  {
     background: rgb(255,242,71,0.6);
+  }
+
+  .btn-primary{
+    background-color: #D9D75A !important;
+    color: black !important;
   }

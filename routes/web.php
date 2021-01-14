@@ -24,6 +24,8 @@ Route::get('/actualsituation', [App\Http\Controllers\IndexController::class, 'ac
 Route::get('/problem', [App\Http\Controllers\IndexController::class, 'problem'])->name('problem');
 Route::get('/solutions', [App\Http\Controllers\IndexController::class, 'solutions'])->name('solutions');
 Route::get('/conclusion', [App\Http\Controllers\IndexController::class, 'conclusion'])->name('conclusion');
+Route::get('/cookies', [App\Http\Controllers\IndexController::class, 'cookies'])->name('cookies');
+
 
 
 

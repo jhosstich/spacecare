@@ -37,6 +37,8 @@ class IndexController extends Controller
         return view('index.conclusion');
     }
 
+    public function cookies(){
+        return view('index.cookies');
 
-
+    }
 }

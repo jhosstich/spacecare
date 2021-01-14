@@ -44,7 +44,8 @@ The above copyright notice and this permission notice shall be included in all c
 </head>
 
 <body class="index-page sidebar-collapse">
-  <!-- Navbar -->
+  
+  <!--Navbar-->
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300">
     <div class="container">
       <div class="navbar-translate">
@@ -62,18 +63,33 @@ The above copyright notice and this permission notice shall be included in all c
          
           <li class="nav-item">
             <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://github.com/jhosstich/spacecare" target="_blank">
-            <i class="fab fa-github"></i>
+              <i class="fab fa-github"></i>
               <p class="d-lg-none">GitHub</p>
             </a>
-          </li>         
+          </li>     
+          <li class="nav-item">
+            <a class="nav-link" data-placement="bottom" href="{{route('cookies')}}" target="_blank">
+              <p >Política de cookies</p>
+            </a>
+          </li>    
         </ul>
       </div>
     </div>
   </nav>
+
   <!-- End Navbar -->
     <main>
       @yield('content')
     </main>
+    <div class="container-fluid cookies" id="cookies" style="display: none;">
+            <div class="col-12 mx-auto">
+                <p><button id="btn-cookies" class="btn btn-primary pull-right"><i class="fa fa-times"></i> Aceptar y cerrar este mensaje</button> </p>
+                <p> Al continuar navegando o al hacer clic en "Aceptar", usted acepta el almacenamiento de cookies
+                en su dispositivo para mejorar su experiencia en el sitio y para propósitos analíticos.
+                Para aprender más sobre cómo usamos las cookies, por favor vea nuestra <a href="{{route('cookies')}}"> política de cookies</a>.
+                </p>
+            </div>
+      </div>
 
     <footer class="footer footer-black py-3 footer-white ">
       <div class="container">
@@ -118,6 +134,23 @@ The above copyright notice and this permission notice shall be included in all c
     <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
 
+    <script>
+      // aquí guardamos la variable de que se ha aceptado el uso de cookies así no mostraremos el mensaje de nuevo
+      $("#btn-cookies").click(function(e) {
+          localStorage.acceptCookies = 'true';
+          $('.cookies').hide();
+      });
+
+      // Esto se ejecuta cuando la web está cargada
+      $(document).ready(function () {
+          // Esto comprueba la localStorage si ya tiene la variable guardada */
+          if(localStorage.acceptCookies == 'true') {
+              $('.cookies').hide();
+          } else {
+              $('.cookies').show();
+          }
+      });
+  </script>
     @yield('script')
 </body>
 
