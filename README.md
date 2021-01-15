@@ -5,7 +5,7 @@
 <h1 align="center">SpaceCare🌌🔭🌎</h1>
 <h3 align="center">Hablemos sobre contaminación espacial</h3>
 
-<div align="left"> 
+
 <h3>Un proyecto realizado por: </h3>
 :man_student:  Pablo Fernandez Jara. 
 :man_student: Javier Romero. 
@@ -13,7 +13,7 @@
 :man_student: Jaime Palazon. 
 :man_student: Adrián Salvador Crespo. 
 :man_student: Christian Balbas Sánchez.
-</div>
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
