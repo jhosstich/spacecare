@@ -7,12 +7,13 @@
 
 
 <h3>Un proyecto realizado por: </h3>
-:man_student:  Pablo Fernandez Jara. 
-:man_student: Javier Romero. 
-:woman_student: Jhoselin Oscco. 
-:man_student: Jaime Palazon. 
-:man_student: Adrián Salvador Crespo. 
-:man_student: Christian Balbas Sánchez.
+- :man_student:  Pablo Fernandez Jara. 
+- :man_student: Javier Romero. 
+- :woman_student: Jhoselin Oscco. 
+- :man_student: Jaime Palazon. 
+- :man_student: Adrián Salvador Crespo. 
+- :man_student: Christian Balbas Sánchez.
+
 
 
 <h3 align="left">Connect with me:</h3>
