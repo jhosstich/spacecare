@@ -1,3 +1,29 @@
+
+<p align="center"><a href="https://spacecare.herokuapp.com/" target="_blank"><img alt="SpaceCare" height="300px" background="black" src="https://user-images.githubusercontent.com/45903742/104680117-74b31d00-56ef-11eb-9a7b-af313ef91d31.png" /></a></p>
+
+
+<h1 align="center">SpaceCare🌌🔭🌎</h1>
+<h3 align="center">Hablemos sobre contaminación espacial</h3>
+
+<div align="left"> 
+<h3>Un proyecto realizado por: </h3>
+ -:man_student:  Pablo Fernandez Jara
+ -:man_student: Javier Romero
+ -:woman_student: Jhoselin Oscco
+ -:man_student: Jaime Palazon
+ -:man_student: Adrián Salvador Crespo
+ -:man_student: Christian Balbas Sánchez
+</div>
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/spacecare2" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="spacecare2" height="30" width="40" /></a>
+</p>
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
