@@ -17,7 +17,7 @@
 <h3>Sobre el proyecto </h3>
 <p>La basura espacial son desechos de naves espaciales abandonadas, soportes para múltiples cargas, desechos liberados intencionadamente durante las misiones espaciales.</p>
 
-<h4>:question: ... Pero, ¿Cuanta basura rodea nuestro planeta?</h4>
+<h4>... Pero, ¿Cuanta basura rodea nuestro planeta?</h4>
 <p>Según la NASA existen alrededor de 20.000 objetos del tamaño de una pelota de balonmano. Más de 500.000 de objetos del tamaño de una canica o más grandes.Y millones de piezas más pequeñas aún que no se pueden identificar y todos estos desechos viajan a una velocidad media de 17,500 millas por hora.<p>
 
 <h4> Descubre mucho más pasándote por <a href="https://spacecare.herokuapp.com/">nuestra web</a> </h4>
