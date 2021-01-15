@@ -31,6 +31,6 @@
 
 
 ## License
-<p><img alt="SpaceCare" width="20px" height="20px" src="https://raw.githubusercontent.com/openwebicons/cc-icons/0213cf3b133c71a052952962387568030e6cfa5d/svg/cc.svg"/> 
+<p><img alt="SpaceCare" width="10px" height="10px" src="https://raw.githubusercontent.com/openwebicons/cc-icons/0213cf3b133c71a052952962387568030e6cfa5d/svg/cc.svg"/> 
 El texto está disponible bajo la Licencia Creative Commons Atribución Compartir Igual 3.0 </p>
 
