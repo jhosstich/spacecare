@@ -11,7 +11,7 @@
 :man_student: Javier Romero. 
 :woman_student: Jhoselin Oscco. 
 :man_student: Jaime Palazon. 
-:man_student: Adrián Salvador Crespo.  
+:man_student: Adrián Salvador Crespo.   
 :man_student: Christian Balbas Sánchez.
 
 <h3>Sobre el proyecto :bookmark:</h3>
