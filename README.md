@@ -31,6 +31,13 @@
 
 
 <h3>:eye_speech_bubble: Licencia </h3>
-<p><img alt="SpaceCare" width="15px" height="15px" src="https://raw.githubusercontent.com/openwebicons/cc-icons/0213cf3b133c71a052952962387568030e6cfa5d/svg/cc.svg"/> 
-Este proyecto está disponible bajo la Licencia Creative Commons Atribución Compartir Igual 3.0 </p>
+
+Este proyecto está disponible bajo la Licencia 
+[Creative Commons Atribución Compartir Igual 4.0][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
