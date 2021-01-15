@@ -24,13 +24,13 @@
 
 <p align="center"><a href="https://spacecare.herokuapp.com/" target="_blank"><img alt="SpaceCare" background="black" src="https://user-images.githubusercontent.com/45903742/104681973-e8efbf80-56f3-11eb-8743-49bd0a9963eb.gif" /></a></p>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Síguenos:</h3>
 <p align="left">
 <a href="https://twitter.com/spacecare2" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="spacecare2" height="30" width="40" /></a>
 </p>
 
 
 ## License
-<p><img alt="SpaceCare" width="10px" height="10px" src="https://raw.githubusercontent.com/openwebicons/cc-icons/0213cf3b133c71a052952962387568030e6cfa5d/svg/cc.svg"/> 
+<p><img alt="SpaceCare" width="15px" height="15px" src="https://raw.githubusercontent.com/openwebicons/cc-icons/0213cf3b133c71a052952962387568030e6cfa5d/svg/cc.svg"/> 
 El texto está disponible bajo la Licencia Creative Commons Atribución Compartir Igual 3.0 </p>
 
