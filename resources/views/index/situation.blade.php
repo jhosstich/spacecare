@@ -20,7 +20,7 @@
     <img class="py-3 img-fluid" height="70" src="/img/objects_in_orbit.jpg">
     <br>
 
-    <span class="sel">El actual problema es producido por las explosiones en órbita producidas por batería y combustible.</span> La NASA afirma que llevan años introduciendo mejoras en la eliminación de los materiales una vez finalizadas las misiones, a pesar de que el número de basura espacial no ha descendido.
+    <span class="sel">El actual problema es debido a las explosiones en órbita producidas por batería y combustible.</span> La NASA afirma que llevan años introduciendo mejoras en la eliminación de los materiales una vez finalizadas las misiones, a pesar de que el número de basura espacial no ha descendido.
     <br>
     <span class="sel">
     Al haber tanta cantidad de basura espacial en nuestra atmósfera se espera que las propias colisiones entre los residuos generarán más basura espacial que las explosiones mencionadas anteriormente.

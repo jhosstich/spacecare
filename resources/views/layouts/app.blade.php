@@ -98,15 +98,15 @@ The above copyright notice and this permission notice shall be included in all c
                 <img height="150"  src="/img/logo/spacecare_logo_white.png">
               </div>
               <div class=" py-3 col-md-6 col-8 ">
-                <p><strong>Sobre Nosotros..</strong> <br> Este es un proyecto realizado por estudiantes de la facultad de informática de la universidad 
+                <p><strong>Sobre Nosotros...</strong> <br> Este es un proyecto realizado por estudiantes de la Facultad de Informática de la Universidad 
                   Complutense de Madrid con el objetivo de difundir esta problemática y concienciar a las personas que lean este pequeño proyecto.</p>
               </div>
               <div class="col-md-4 col-12 text-center">
                   <p>
-                    Pablo Fernandez Jara <br>
+                    Pablo Fernández Jara <br>
                     Javier Romero <br>
                     Jhoselin Oscco <br>
-                    Jaime Palazon <br>
+                    Jaime Palazón <br>
                     Adrián Salvador Crespo <br>
                     Christian Balbas Sánchez<br>
                   </p>  

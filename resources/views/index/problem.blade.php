@@ -12,8 +12,8 @@
   </div>
 <div class="container">
     <p class="py-4 col-md-8 mx-auto col-12">
-    <span class="sel">La continua generación de basura espacial acabará provocando que la densidad de los objetos en la órbita baja terrestre 
-    sea lo bastante elevada como para que las colisiones entre objetos y desechos creen un efecto de cascada en el que cada 
+    <span class="sel">La continua generación de basura espacial acabará provocando que la densidad de los objetos en la órbita baja terrestre, 
+    sea lo bastante elevada como para que las colisiones entre objetos y desechos creen un efecto de cascada, en el que cada 
     impacto genere nuevos residuos que, a su vez, aumenten la probabilidad de nuevas colisiones.</span> <br>
     
     <img class="mt-4" src="https://media1.giphy.com/media/sRKb7KNOf5ftif9Ehl/giphy.gif" width="100%">
@@ -23,7 +23,7 @@
     Se creará así el llamado síndrome de Kessler.
     <br>
     
-    <span class="sel">El síndrome de Kessler propuesto por Donald J. Kessler, dice que el volumen de basura espacial en órbita baja terrestre sería tan alto que los objetos en órbita serían impactados con frecuencia por la basura, creándose así aún más basura y un mayor riesgo de otros impactos sobre otros objetos.</span> Mientras que el número de satélites en órbita crece y los viejos satélites se acumulan, el riesgo de este escenario de colisiones en cascada de Kessler se hace mayor.
+    <span class="sel">El síndrome de Kessler, propuesto por Donald J. Kessler, dice que el volumen de basura espacial en órbita baja terrestre sería tan alto, que los objetos en órbita serían impactados, con frecuencia, por la basura, creándose así aún más basura y un mayor riesgo de otros impactos sobre otros objetos.</span> Mientras que el número de satélites en órbita crece y los viejos satélites se acumulan, el riesgo de este escenario de colisiones en cascada de Kessler, se hace mayor.
     <br>
     <img class="my-4" src="/img/Why_Space_Debris_Mitigation_is_needed_pillars.gif" width="100%">
     <small class="mb-4">Estimaciones de la ESA de cuál sería el estado de la órbita terrestre si seguimos actuando de la misma manera sin tomar medidas que reduzcan los derbis en 2209. Y estimaciones si se lleva a cabo su plan de mitigación.</small> <br>  <br>
